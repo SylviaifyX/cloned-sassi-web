@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>account-section</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="/main.css" />
+  </head>
+  <body>
+    <!----------------------------- Navbar section starts here --------------------->
+    <nav class="nav-bar w-full bg-white fixed top-0 left-0 z-[1000] p-4">
+      <wrapper class="flex items-center justify-between p-1 md:p-0">
+        <section class="logo w-[15%]">
+          <a href="index.html"
+            ><img
+              src="../Pics/logo22857237.png"
+              alt=""
+              class="w-full object-cover h-full"
+          /></a>
+        </section>
+        <ul class="nav-list w-[70%] text-center text-[13px] hidden">
+          <li><a class="" href="#">About</a></li>
+          <li>
+            <a class="" href="#">Bridal</a>
+            <ul class="submenu-list">
+              <div class="sub-list">
+                <img id="navPic" src="../Pics/navpic1.png" alt="" />
+                <strong
+                  ><a id="collect" class="nav-pic1" href=""
+                    >COLLECTIONS</a
+                  ></strong
+                >
+              </div>
+              <div class="sub-list">
+                <img id="navPic1" src="../Pics/navpic2.jpg" alt="" />
+                <strong
+                  ><a href="" id="consult">VRITUAL<br />CONSULATION</a></strong
+                >
+              </div>
+              <div class="sub-list">
+                <img id="navPictuer" src="../Pics/navpic3.png" alt="" />
+                <strong><a href="" id="access">ACCESSORIES</a></strong>
+              </div>
+              <div class="sub-list">
+                <img id="navPictuer1" src="../Pics/navpic4.jpg" alt="" />
+                <strong><a href="" id="bok">LOOKBOOK</a></strong>
+              </div>
+            </ul>
+          </li>
+          <li><a class="ab" href="product.html">Fashion</a></li>
+          <li><a class="ab" href="#">Appoinment</a></li>
+          <li><a class="ab" href="#">Blog</a></li>
+          <li><a class="ab" href="#">Our Store</a></li>
+          <li><a class="ab" href="#">Stock List</a></li>
+        </ul>
+        <section class="details-container items-center hidden md:hidden">
+          <div class="account-container">
+            <a class="" href="account.html">My Account</a>
+          </div>
+          <div class="cart-icon">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </div>
+          <div class="cart-container relative">
+            <a href="" id="cartbtn"
+              ><i class="fa fa-shopping-cart" aria-hidden="true"></i
+            ></a>
+            <span class="absolute top-[-15px] left-[3px] p-2">0</span>
+          </div>
+        </section>
+      </wrapper>
+    </nav>
+    <!----------------------------- Navbar section Ends here --------------------->
+    <!----------------------------- Registration section starts here --------------------->
+    <section
+      class="md:h-[600px] md:mx-auto md:max-w-[1300px] relative mb-20 md:mb-0 mt-12 md:mt-14 w-full"
+    >
+      <div class="md:mt-[30px] md:absolute md:p-0 w-full p-3">
+        <h1
+          class="font-bold text-[20px] text-center md:text-start md:text-[28px] md:ml-4"
+        >
+          LOGIN OR REGISTER
+        </h1>
+      </div>
+
+      <div
+        class="md:absolute w-full p-4 md:p-6 flex flex-col md:flex-row md:items-center md:justify-between md:mt-[100px] md:mb-28"
+      >
+        <div class="form-container w-full md:w-2/5 p-3 md:p-2">
+          <h2 class="font-bold text-[18px] md:[40px] lg:text-[30px] mb-4">
+            LOGIN
+          </h2>
+          <form class="md:mb-2 mb-1">
+            <label for="email" class="label">Email</label>
+            <input
+              type="text"
+              id="mail"
+              placeholder="email"
+              class="input-container outline-none"
+            />
+            <span></span>
+          </form>
+          <form>
+            <label for="Password" class="label">password</label>
+            <input
+              type="password"
+              id="password"
+              placeholder="password"
+              class="input-container outline-none"
+            />
+            <span></span>
+            <div class="Para mt-2">
+              <a href="" class="Pa">Lost your password?</a>
+            </div>
+          </form>
+          <div class="check flex items-center justify-between">
+            <div class="box">
+              <input type="checkbox" id="check" name="check" value="check" />
+              <label for="check">Remember me </label>
+            </div>
+
+            <div class="button">
+              <button class="but">LOG IN</button>
+            </div>
+          </div>
+        </div>
+        <div class="form-container w-full md:w-2/5 p-4 md:p-2">
+          <h2 class="font-bold text-[18px] md:text-[20px] lg:text-[30px] mb-4">
+            CREATE AN ACCOUNT
+          </h2>
+          <form class="md:mb-2 mb-1">
+            <label for="email" class="label">Email</label>
+            <input
+              type="text"
+              id="mail"
+              placeholder="email"
+              class="input-container outline-none"
+            />
+            <span></span>
+          </form>
+          <form>
+            <label for="Password" class="label">password</label>
+            <input
+              type="password"
+              id="password"
+              placeholder="password"
+              class="input-container outline-none"
+            />
+            <span></span>
+          </form>
+          <div class="accInfo mt-2">
+            <p>
+              Your personal data will be used to support your experience
+              throughout this website, to<br />
+              manage access to your account, and for other purposes described in
+              our privacy<br />
+              policy.
+            </p>
+          </div>
+          <div class="button2">
+            <button class="but2">REGISTER</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!----------------------------- Registration section Ends here --------------------->
+    <!----------------------------- footer section starts here --------------------->
+    <footer
+      class="footer-container w-full md:max-w-[1200px] md:mx-auto flex flex-col md:flex md:flex-row md:items-center justify-between p-4"
+    >
+      <section class="footer-wrapper-left w-full md:w-[30%]">
+        <div class="footer-wrapper">
+          <h4 class="text-[12px] font-bold">© 2022 SASSI HOLFORD</h4>
+          <div class="link-list">
+            <a class="links" href="">TERMS & CONDITIONS</a>
+            <a class="links" href="#">PRIVACY POLICY</a>
+            <a class="links" href="#">WEBSITE BY GY</a>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="footer-wrapper-right w-full md:w-[70%] flex flex-col md:flex md:flex-row md:items-center md:justify-between"
+      >
+        <div
+          class="grid grid-cols-2 lg:space-x-12 md:grid-cols-3 lg:grid-cols-3 sm:grid-cols-3"
+        >
+          <section class="footer-wrapper">
+            <h4>ABOUT US</h4>
+            <div class="link-list">
+              <a class="links" href="#">BRIDAL STOCKISTS</a>
+              <a class="links" href="#">OUR STORY</a>
+              <a class="links" href="#">RESPONSIBILITY</a>
+              <a class="links" href="#">BLOG</a>
+            </div>
+          </section>
+
+          <div class="footer-wrapper">
+            <h4>COLLECTIONS</h4>
+            <div class="link-list">
+              <a class="links" href="#">LOVE CONQUERS ALL</a>
+              <a class="links" href="#">ASTERIA</a>
+              <a class="links" href="#">ENCHANTED</a>
+              <a class="links" href="#">ACCESSORIES</a>
+            </div>
+          </div>
+          <div class="footer-wrapper">
+            <h4>INFO</h4>
+            <div class="link-list">
+              <a class="links" href="#">SIZE HELP</a>
+              <a class="links" href="#">DELIVERY AND RETURNS</a>
+              <a class="links" href="#">FAQS</a>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="footer-wrapper-sublist-right h-[120px] flex items-center justify-between md:flex md:flex-col"
+        >
+          <div class="mb-2 md:mb-1">
+            <h4 class="text-[12px] font-bold">FOLLOW SASSI</h4>
+            <div
+              class="flex items-center space-x-4 md:space-x-0 md:justify-between"
+            >
+              <div class="">
+                <a class="icons" href=""
+                  ><i class="fa fa-facebook-square" aria-hidden="true"></i
+                ></a>
+              </div>
+              <div class="">
+                <a class="icons" href=""
+                  ><i class="fa fa-instagram" aria-hidden="true"></i
+                ></a>
+              </div>
+              <div class="">
+                <a class="icons" href=""
+                  ><i class="fa fa-pinterest" aria-hidden="true"></i
+                ></a>
+              </div>
+              <div class="">
+                <a class="icons" href=""
+                  ><i class="fa fa-twitter" aria-hidden="true"></i
+                ></a>
+              </div>
+              <div class="">
+                <a class="icons" href=""
+                  ><i class="fa fa-youtube-play" aria-hidden="true"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="">
+            <h4 class="text-[12px] font-bold">MAILING LIST</h4>
+            <div class="sign">
+              <a class="links" href="#">SIGN UP</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <!----------------------------- footer section Ends here --------------------->
+  </body>
+</html>

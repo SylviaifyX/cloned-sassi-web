@@ -1,0 +1,798 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul li {
+  display: inline-block;
+  margin-right: 20px;
+
+  /* transition: none 0.3s ease-in-out;  */
+}
+
+ul li a {
+  color: black;
+  text-decoration: none;
+}
+ul li:hover .submenu-list {
+  height: 250px;
+}
+.submenu-list {
+  overflow: hidden;
+  margin-top: 15px;
+  position: absolute;
+  width: 100%;
+  text-align: justify;
+  padding-right: 130px;
+  background-color: white;
+  left: 0;
+  height: 0;
+  line-height: 20px;
+  box-sizing: border-box;
+  transition: height 0.4s ease-in-out;
+  transition-delay: 0.1s;
+}
+.submenu-list {
+  display: flex;
+  place-content: center;
+}
+ul.submenu-list .sub-list a {
+  font-size: 14px;
+  text-align: justify;
+}
+ul.submenu-list .sub-list {
+  background-color: #fff;
+  width: 15%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  overflow: hidden;
+  margin-right: 20px;
+}
+ul.submenu-list .sub-list img {
+  margin-top: 20px;
+  width: 100%;
+  transition: all 0.9s;
+}
+ul.submenu-list .sub-list img:hover {
+  transform: scale(1.1);
+}
+
+.footer-wrapper {
+  height: 120px;
+}
+.footer-wrapper h4 {
+  font-size: 12px;
+  margin-bottom: 10px;
+  color: black;
+  font-weight: 700;
+}
+.links {
+  font-size: 11px;
+  margin: 3px;
+  text-decoration: none;
+  color: rgb(129, 125, 125);
+}
+.links:hover {
+  color: black;
+}
+.link-list {
+  display: flex;
+  flex-direction: column;
+}
+.icons {
+  color: gray;
+}
+.icons:hover {
+  color: black;
+}
+.hero-sub-wrapperA {
+  width: 100%;
+  height: 680px;
+  object-fit: cover;
+  background-image: url("./Pics/img1.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+.banner-list {
+  position: absolute;
+  display: flex;
+  z-index: 1;
+  flex-direction: column;
+  gap: 10px;
+  top: 300px;
+  flex-wrap: wrap;
+}
+.banner-list h2 {
+  font-size: 16px;
+  font-weight: 700;
+}
+.banner-list p {
+  font-size: 14px;
+  font-weight: 800;
+}
+.banner-list button.btn {
+  width: 100%;
+  border: 1px solid black;
+  border: none;
+  padding: 15px;
+  font-size: 12px;
+  background-color: black;
+  color: white;
+  transition: 0.3s;
+  position: relative;
+  z-index: 1;
+  background-color: black;
+  text-transform: uppercase;
+}
+.banner-list button.btn:hover {
+  color: black;
+  cursor: pointer;
+}
+.banner-list .btn::before {
+  transition: 0.3s all ease;
+  position: absolute;
+  border: 2px solid black;
+  top: 0;
+  left: 10%;
+  right: 10%;
+  bottom: 0;
+  opacity: 0;
+  content: "";
+  background: white;
+  z-index: 1;
+}
+.banner-list .btn:hover::before {
+  transition: 0.3s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: -1;
+}
+
+.first-grid-container .card .cardA-img {
+  width: 100%;
+  background-image: url("./Pics/img3.jpg");
+  height: 420px;
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: cover;
+}
+.first-grid-container .card .cardB-img {
+  width: 100%;
+  background-image: url("./Pics/img4.jpg");
+  height: 420px;
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: cover;
+}
+.first-grid-container .card .cardC-img {
+  width: 100%;
+  background-image: url("./Pics/img5.png");
+  height: 420px;
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: cover;
+}
+.card {
+  position: relative;
+}
+.card p {
+  font-size: 13px;
+  margin-top: 10px;
+  color: black;
+  text-transform: uppercase;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  cursor: pointer;
+}
+.card p:hover {
+  color: gray;
+}
+.top {
+  width: 100%;
+  height: 420px;
+  background-color: rgb(245, 234, 234);
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.8s;
+  display: none;
+}
+.top h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 25px;
+  margin-top: 190px;
+}
+.top:hover {
+  transform: scale(0.9);
+}
+.sasi-icon {
+  height: 300px;
+  background-image: url("./Pics/sassi-badge.png");
+  background-position: center;
+  background-size: 55%;
+  background-repeat: no-repeat;
+}
+.sasi-image {
+  height: 200px;
+  background-image: url("./Pics/sassi-signature.png");
+  background-repeat: no-repeat;
+  background-size: 10%;
+  background-position: 50%;
+}
+.new-image img {
+  transition: all 0.7s;
+}
+.new-image img:hover {
+  transform: scale(1.1);
+}
+.new-dec-price p {
+  color: black;
+  font-size: 14px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.new-dec-price p:hover {
+  color: gray;
+}
+
+.new-dec-price h3 {
+  font-size: 13.3px;
+  color: gray;
+  font-weight: 700;
+  margin-top: 4px;
+}
+
+.store-info-image {
+  background-image: url("./Pics/img28.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  height: 300px;
+  margin-top: 30px;
+}
+.store-info h2 {
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.store-info h3 {
+  font-size: 11px;
+  line-height: 20px;
+}
+.store-info p {
+  font-size: 13.2px;
+  line-height: 25px;
+  color: grey;
+}
+.btn2 {
+  width: 50%;
+  /* width: 25%; */
+  border: 2px solid black;
+  border: none;
+  font-size: 11px;
+  background-color: black;
+  color: white;
+  padding: 19px;
+  text-transform: uppercase;
+  transition: 0.3s;
+  position: relative;
+  z-index: 1;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.btn2::before {
+  transition: 0.3s all ease;
+  position: absolute;
+  border: 2px solid black;
+  top: 0;
+  left: 10%;
+  right: 10%;
+  bottom: 0;
+  opacity: 0;
+  content: "";
+  background: white;
+  z-index: 1;
+}
+.btn2:hover {
+  color: black;
+  cursor: pointer;
+}
+.btn2:hover::before {
+  transition: 0.3s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: -1;
+}
+.btn3 {
+  /* width: 19%; */
+  width: 40%;
+  margin-left: 20px;
+  border: 2px solid black;
+  font-size: 11px;
+  background-color: white;
+  color: black;
+  padding: 18px;
+  text-transform: uppercase;
+  transition: 0.3s;
+  position: relative;
+  z-index: 1;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.btn3::before {
+  transition: 0.3s all ease;
+  position: absolute;
+  border: 2px solid black;
+  top: 0;
+  left: 10%;
+  right: 10%;
+  bottom: 0;
+  opacity: 0;
+  content: "";
+  background: black;
+  z-index: 1;
+}
+.btn3:hover {
+  color: wheat;
+  cursor: pointer;
+}
+.btn3:hover::before {
+  transition: 0.3s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: -1;
+}
+a.Phone {
+  display: block;
+  color: grey;
+  text-decoration: none;
+  font-size: 12.5px;
+}
+a.env {
+  color: grey;
+  text-decoration: none;
+  font-size: 12.5px;
+}
+a.Phone:hover,
+a.env:hover {
+  color: black;
+}
+.about-sassi{
+  font-size: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 700;
+}
+.about-sassi .span-b{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #fff;
+  opacity: 1;
+  -webkit-text-stroke:1px black;
+}
+
+a.bride{
+  padding: 0px;
+  font-size:15px;
+  text-transform: lowercase;
+  text-decoration: none;
+  color: black;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+a.brid{
+  padding: 0px;
+  font-size:15px;
+  text-transform:capitalize;
+  text-decoration: none;
+  color: black;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+a.bride:hover, a.brid:hover{
+color: grey;
+}
+.her, .about-sassi-c {
+  margin-top: 20px;
+}
+.about-sassi-a p, .her p{
+  /* margin-top: 10px; */
+  /* margin-left: 28px; */
+  font-size: 12px;
+  line-height: 25px;
+  color: grey;
+}
+
+.about-sassi-b p, .about-sassi-c p{
+  /* margin-top: 10px; */
+  margin-left: 10px;
+  font-size: 12px;
+  line-height: 25px;
+  color: grey;
+}
+.loveP1{
+  height:200px ;
+  background-image: url('./Pics/img52.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover; 
+}
+.loveP2{
+  height:200px ;
+  background-image: url('./Pics/img10.jpg');
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+} 
+.loveP3{
+  height:200px ;
+  background-image: url('./Pics/1mg11.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+ 
+} 
+.loveP4{
+  height:200px ;
+ background-image: url('./Pics/img9.jpg');
+ background-repeat: no-repeat;
+ background-position:top;
+ background-size: cover;
+} 
+.loveP5{
+  height:200px ;
+  background-image: url('./Pics/img8.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+ 
+} 
+.loveP6{
+  height:200px ;
+  background-image: url('./Pics/img6.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  
+} 
+.loveP1, .loveP2, .loveP3, .loveP4, .loveP5, .loveP6{
+   transition: all 0.8s;
+   cursor: pointer;
+   
+}
+.loveP1:hover, .loveP2:hover, .loveP3:hover, .loveP4:hover, .loveP5:hover, .loveP6:hover{
+  transform: scale(1.1);
+
+}
+
+
+@media (min-width: 640px) {
+  .sasi-icon {
+    height: 300px;
+    background-image: url("./Pics/sassi-badge.png");
+    background-position: 70%;
+    background-size: 30%;
+    background-repeat: no-repeat;
+    /* background-position:72%;
+    background-size: 12%; */
+  }
+  .store-info-image {
+    background-image: url("./Pics/img28.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 90%;
+    height: 400px;
+    margin-top: 30px;
+  }
+  .about-sassi{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+  }
+}
+@media (min-width: 768px) {
+  .sasi-icon {
+    height: 300px;
+    background-image: url("./Pics/sassi-badge.png");
+    background-repeat: no-repeat;
+    background-position: 72%;
+    background-size: 20%;
+  }
+  .store-info-image {
+    background-image: url("./Pics/img28.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: 400px;
+    margin-top: 30px;
+  }
+  .store-info h2 {
+    font-weight: 700;
+    font-size: 16px;
+  }
+  .store-info h3 {
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .store-info p {
+    font-size: 10px;
+    line-height: 25px;
+    color: grey;
+  }
+  .btn2{
+    width: 40%;
+  }
+  .btn3{
+    width: 40%;
+  }
+  .about-sassi{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+  }
+}
+
+
+/* Registration sections */
+.form-container{
+  border: 1px solid grey;
+  outline: none;
+  border: none;
+  height: 400px;
+  
+}
+.form-container h2{
+  text-align: center;
+    margin-top: 20px;
+}
+
+.label{
+  font-size: 12px;
+  -webkit-text-stroke: 1px black;
+}
+.input-container{
+  display: block;
+  margin-top: 20px;
+  width: 100%;
+  border:none;
+  border-bottom: 2px solid black;
+  padding: 5px;
+}
+.Para{
+  margin-bottom: 20px;
+  /* margin-left: 29px; */
+}
+a.Pa{
+  font-size: 11px;
+  color: black;
+  text-decoration: none;
+}
+a.Pa:hover{
+  color:grey;
+}
+.check{
+  width: 100%;
+  display: flex;
+}
+.check .box{
+  margin-top: 20px;
+}
+
+.box input{
+  width: 18px;  
+  height: 17px;
+}
+.box label{
+  font-size: 13.5px;
+}
+.accInfo{
+  color: grey;
+  font-size: 10.5px;
+  line-height: 20px;
+}
+.but{
+  width:100%;
+  border: 2px solid black;
+  border: none;
+  font-size: 11px;
+  background-color: black;
+  color: white;
+  padding: 11px;
+  text-transform: uppercase;
+  transition: 0.3s;
+  position: relative;
+  z-index: 1;
+ text-transform: uppercase;
+ cursor: pointer;
+}
+.but:hover{
+  color: black;
+  cursor: pointer;
+}
+.but::before{
+  border: 2px solid black;
+  transition: 0.3s all ease;
+  position: absolute;
+  top:0;
+  left: 10%;
+  right: 10%;
+  bottom: 0;
+  opacity: 0;
+  content: "";
+  color: black;
+  background: white;
+  z-index: 1;
+ 
+}
+.but:hover::before{
+  transition: 0.3s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: -1;
+}
+.button2{
+  width: 100%;
+  margin-top: 10px;
+}
+.but2{
+  width:100%;
+  border: 2px solid black;
+  border: none;
+  font-size: 11px;
+  background-color: black;
+  color: white;
+  padding: 11px;
+  text-transform: uppercase;
+  transition: 0.3s;
+  position: relative;
+  z-index: 1;
+ text-transform: uppercase;
+ cursor: pointer;
+}
+.but2:hover{
+  color: black;
+  cursor: pointer;
+}
+.but2::before{
+  border: 2px solid black;
+  transition: 0.3s all ease;
+  position: absolute;
+  top:0;
+  left: 10%;
+  right: 10%;
+  bottom: 0;
+  opacity: 0;
+  content: "";
+  color: black;
+  background: white;
+  z-index: 1;
+ 
+}
+.but2:hover::before{
+  transition: 0.3s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: -1;
+}
+/* Registration sections Ends*/
+
+
+
+
+
+/* Media Query */
+@media (min-width: 1024px) {
+  .sasi-icon {
+    height: 300px;
+    background-image: url("./Pics/sassi-badge.png");
+    background-repeat: no-repeat;
+    background-position: 72%;
+    background-size: 12%;
+  }
+  .store-info-image {
+    background-image: url("./Pics/img28.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 90%;
+    height: 450px;
+    margin-top: 30px;
+  }
+  .store-info  h2{
+    font-weight: 700;
+    font-size: 22px;
+  }
+  .store-info h3 {
+    font-size: 13.8px;
+    line-height: 20px;
+  }
+  .store-info p {
+    font-size: 13.2px;
+    line-height: 25px;
+    color: grey;
+  }
+  .btn2{
+     width: 25%;
+  }
+  .btn3{
+      width: 19%;
+  }
+  .about-sassi{
+    font-size: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+  }
+  .about-sassi .span-b{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+    opacity: 1;
+    -webkit-text-stroke:1px black;
+  }
+  .loveP1{
+    height:200px ;
+    background-image: url('./Pics/img52.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+   background-size: 100%;
+  }
+  .loveP2{
+    height:200px ;
+    background-image: url('./Pics/img10.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: 100%;
+  } 
+  .loveP3{
+    height:200px ;
+    background-image: url('./Pics/1mg11.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+   
+  } 
+  .loveP4{
+    height:200px ;
+   background-image: url('./Pics/img9.jpg');
+   background-repeat: no-repeat;
+   background-position:center;
+   background-size: 100%;
+  } 
+  .loveP5{
+    height:200px ;
+    background-image: url('./Pics/img8.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+   
+  } 
+  .loveP6{
+    height:200px ;
+    background-image: url('./Pics/img6.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    
+  } 
+  .check{
+    width: 80%;
+    display: flex;
+    margin-left: 50px;
+  }
+  .but {
+    width:130%;
+    padding: 19px;
+  }
+  .but2{
+    width:25%;
+    padding: 19px;
+  }
+  .input-container{
+      padding: 10px;
+  }
+}
