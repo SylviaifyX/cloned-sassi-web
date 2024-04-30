@@ -6,9 +6,8 @@
 }
 ul li {
   display: inline-block;
-  margin-right: 20px;
-
-  /* transition: none 0.3s ease-in-out;  */
+  margin: 8px;
+  margin-right: 30px;
 }
 
 ul li a {
@@ -16,15 +15,15 @@ ul li a {
   text-decoration: none;
 }
 ul li:hover .submenu-list {
-  height: 250px;
+  height: 200px;
 }
 .submenu-list {
   overflow: hidden;
   margin-top: 15px;
-  position: absolute;
+  /* position: absolute; */
   width: 100%;
   text-align: justify;
-  padding-right: 130px;
+  /* padding-right: 130px; */
   background-color: white;
   left: 0;
   height: 0;
@@ -41,14 +40,16 @@ ul.submenu-list .sub-list a {
   font-size: 14px;
   text-align: justify;
 }
-ul.submenu-list .sub-list {
-  background-color: #fff;
-  width: 15%;
+
+ul.submenu-list{
+ /* padding: 10px; */
+  width: 100%;
+  gap: 10px;
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: 20px;
+  margin: auto;
   overflow: hidden;
-  margin-right: 20px;
+  
 }
 ul.submenu-list .sub-list img {
   margin-top: 20px;
@@ -535,6 +536,18 @@ color: grey;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 700;
   }
+  ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  .submenu-list {   
+   position: absolute;  
+  }
+  ul li {
+    display: inline-block;
+    margin: 0;
+    margin-right: 20px;
+  }
 }
 
 
@@ -794,5 +807,18 @@ a.Pa:hover{
   }
   .input-container{
       padding: 10px;
+  }
+  ul li:hover .submenu-list {
+    height: 250px;
+   
+  }
+  ul.submenu-list .sub-list {
+    background-color: #fff;
+    width: 15%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    overflow: hidden;
+    margin-right: 20px;
   }
 }
