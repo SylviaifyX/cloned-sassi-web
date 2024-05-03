@@ -424,7 +424,7 @@
   }
   .loveP1 {
     height: 200px;
-    background-image: url("/Pics/img52.jpg");
+    background-image: url("./Pics/img52.jpg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
@@ -445,21 +445,21 @@
   }
   .loveP4 {
     height: 200px;
-    background-image: url("/Pics/img9.jpg");
+    background-image: url("./Pics/img9.jpg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
   }
   .loveP5 {
     height: 200px;
-    background-image: url("/Pics/img8.jpg");
+    background-image: url("./Pics/img8.jpg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
   }
   .loveP6 {
     height: 200px;
-    background-image: url("/Pics/img6.jpg");
+    background-image: url("./Pics/img6.jpg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;

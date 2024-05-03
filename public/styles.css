@@ -735,12 +735,12 @@ video {
   height: 18px;
 }
 
-.h-\[410px\] {
-  height: 410px;
+.h-\[400px\] {
+  height: 400px;
 }
 
-.h-\[430px\] {
-  height: 430px;
+.h-\[410px\] {
+  height: 410px;
 }
 
 .h-\[550px\] {
@@ -749,14 +749,6 @@ video {
 
 .h-full {
   height: 100%;
-}
-
-.h-\[40px\] {
-  height: 40px;
-}
-
-.h-\[400px\] {
-  height: 400px;
 }
 
 .w-1 {
