@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+ul{
+  transition: 1s ease-out;
+}
 ul li {
   display: inline-block;
   margin: 8px;
