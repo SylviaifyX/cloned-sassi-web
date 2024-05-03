@@ -4,7 +4,7 @@
   box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-ul{
+ul {
   transition: 1s ease-out;
 }
 ul li {
@@ -44,15 +44,14 @@ ul.submenu-list .sub-list a {
   text-align: justify;
 }
 
-ul.submenu-list{
- /* padding: 10px; */
+ul.submenu-list {
+  /* padding: 10px; */
   width: 100%;
   gap: 10px;
   margin-top: 20px;
   margin-bottom: 20px;
   margin: auto;
   overflow: hidden;
-  
 }
 ul.submenu-list .sub-list img {
   margin-top: 20px;
@@ -370,41 +369,44 @@ a.Phone:hover,
 a.env:hover {
   color: black;
 }
-.about-sassi{
+.about-sassi {
   font-size: 25px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: 700;
 }
-.about-sassi .span-b{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.about-sassi .span-b {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: #fff;
   opacity: 1;
-  -webkit-text-stroke:1px black;
+  -webkit-text-stroke: 1px black;
 }
 
-a.bride{
+a.bride {
   padding: 0px;
-  font-size:15px;
+  font-size: 15px;
   text-transform: lowercase;
   text-decoration: none;
   color: black;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-a.brid{
+a.brid {
   padding: 0px;
-  font-size:15px;
-  text-transform:capitalize;
+  font-size: 15px;
+  text-transform: capitalize;
   text-decoration: none;
   color: black;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-a.bride:hover, a.brid:hover{
-color: grey;
+a.bride:hover,
+a.brid:hover {
+  color: grey;
 }
-.her, .about-sassi-c {
+.her,
+.about-sassi-c {
   margin-top: 20px;
 }
-.about-sassi-a p, .her p{
+.about-sassi-a p,
+.her p {
   /* margin-top: 10px; */
   /* margin-left: 28px; */
   font-size: 12px;
@@ -412,68 +414,224 @@ color: grey;
   color: grey;
 }
 
-.about-sassi-b p, .about-sassi-c p{
+.about-sassi-b p,
+.about-sassi-c p {
   /* margin-top: 10px; */
   margin-left: 10px;
   font-size: 12px;
   line-height: 25px;
   color: grey;
 }
-.loveP1{
-  height:200px ;
-  background-image: url('./Pics/img52.jpg');
+.loveP1 {
+  height: 200px;
+  background-image: url("./Pics/img52.jpg");
   background-repeat: no-repeat;
   background-position: top;
-  background-size: cover; 
+  background-size: cover;
 }
-.loveP2{
-  height:200px ;
-  background-image: url('./Pics/img10.jpg');
+.loveP2 {
+  height: 200px;
+  background-image: url("./Pics/img10.jpg");
   background-repeat: no-repeat;
-  background-position: center; 
+  background-position: center;
   background-size: cover;
-} 
-.loveP3{
-  height:200px ;
-  background-image: url('./Pics/1mg11.jpg');
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
- 
-} 
-.loveP4{
-  height:200px ;
- background-image: url('./Pics/img9.jpg');
- background-repeat: no-repeat;
- background-position:top;
- background-size: cover;
-} 
-.loveP5{
-  height:200px ;
-  background-image: url('./Pics/img8.jpg');
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
- 
-} 
-.loveP6{
-  height:200px ;
-  background-image: url('./Pics/img6.jpg');
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-  
-} 
-.loveP1, .loveP2, .loveP3, .loveP4, .loveP5, .loveP6{
-   transition: all 0.8s;
-   cursor: pointer;
-   
 }
-.loveP1:hover, .loveP2:hover, .loveP3:hover, .loveP4:hover, .loveP5:hover, .loveP6:hover{
+.loveP3 {
+  height: 200px;
+  background-image: url("./Pics/1mg11.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+.loveP4 {
+  height: 200px;
+  background-image: url("./Pics/img9.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+.loveP5 {
+  height: 200px;
+  background-image: url("./Pics/img8.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+.loveP6 {
+  height: 200px;
+  background-image: url("./Pics/img6.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+.loveP1,
+.loveP2,
+.loveP3,
+.loveP4,
+.loveP5,
+.loveP6 {
+  transition: all 0.8s;
+  cursor: pointer;
+}
+.loveP1:hover,
+.loveP2:hover,
+.loveP3:hover,
+.loveP4:hover,
+.loveP5:hover,
+.loveP6:hover {
   transform: scale(1.1);
-
+}
+/* Registration sections */
+.form-container {
+  border: 1px solid grey;
+  outline: none;
+  border: none;
+  height: 400px;
+}
+.form-container h2 {
+  text-align: center;
+  margin-top: 20px;
 }
 
+.label {
+  font-size: 12px;
+  -webkit-text-stroke: 1px black;
+}
+.input-container {
+  display: block;
+  margin-top: 20px;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid black;
+  padding: 5px;
+}
+.Para {
+  margin-bottom: 20px;
+  /* margin-left: 29px; */
+}
+a.Pa {
+  font-size: 11px;
+  color: black;
+  text-decoration: none;
+}
+a.Pa:hover {
+  color: grey;
+}
+.check {
+  width: 100%;
+  display: flex;
+}
+.check .box {
+  margin-top: 20px;
+}
+
+.box input {
+  width: 18px;
+  height: 17px;
+}
+.box label {
+  font-size: 13.5px;
+}
+.accInfo {
+  color: grey;
+  font-size: 10.5px;
+  line-height: 20px;
+}
+.but {
+  width: 100%;
+  border: 2px solid black;
+  border: none;
+  font-size: 11px;
+  background-color: black;
+  color: white;
+  padding: 11px;
+  text-transform: uppercase;
+  transition: 0.3s;
+  position: relative;
+  z-index: 1;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.but:hover {
+  color: black;
+  cursor: pointer;
+}
+.but::before {
+  border: 2px solid black;
+  transition: 0.3s all ease;
+  position: absolute;
+  top: 0;
+  left: 10%;
+  right: 10%;
+  bottom: 0;
+  opacity: 0;
+  content: "";
+  color: black;
+  background: white;
+  z-index: 1;
+}
+.but:hover::before {
+  transition: 0.3s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: -1;
+}
+.button2 {
+  width: 100%;
+  margin-top: 10px;
+}
+.but2 {
+  width: 100%;
+  border: 2px solid black;
+  border: none;
+  font-size: 11px;
+  background-color: black;
+  color: white;
+  padding: 11px;
+  text-transform: uppercase;
+  transition: 0.3s;
+  position: relative;
+  z-index: 1;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.but2:hover {
+  color: black;
+  cursor: pointer;
+}
+.but2::before {
+  border: 2px solid black;
+  transition: 0.3s all ease;
+  position: absolute;
+  top: 0;
+  left: 10%;
+  right: 10%;
+  bottom: 0;
+  opacity: 0;
+  content: "";
+  color: black;
+  background: white;
+  z-index: 1;
+}
+.but2:hover::before {
+  transition: 0.3s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: -1;
+}
+/* Registration sections Ends*/
+/* 
+product page css starts here */
+.product-backgraound-image{
+  width: 100%;
+  background-image: url("./Pics/img13.jpg");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
 
 @media (min-width: 640px) {
   .sasi-icon {
@@ -493,9 +651,10 @@ color: grey;
     height: 400px;
     margin-top: 30px;
   }
-  .about-sassi{
+  .about-sassi {
     font-size: 40px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
     font-weight: 700;
   }
 }
@@ -528,23 +687,24 @@ color: grey;
     line-height: 25px;
     color: grey;
   }
-  .btn2{
+  .btn2 {
     width: 40%;
   }
-  .btn3{
+  .btn3 {
     width: 40%;
   }
-  .about-sassi{
+  .about-sassi {
     font-size: 50px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
     font-weight: 700;
   }
   ul li {
     display: inline-block;
     margin-right: 20px;
   }
-  .submenu-list {   
-   position: absolute;  
+  .submenu-list {
+    position: absolute;
   }
   ul li {
     display: inline-block;
@@ -552,156 +712,6 @@ color: grey;
     margin-right: 20px;
   }
 }
-
-
-/* Registration sections */
-.form-container{
-  border: 1px solid grey;
-  outline: none;
-  border: none;
-  height: 400px;
-  
-}
-.form-container h2{
-  text-align: center;
-    margin-top: 20px;
-}
-
-.label{
-  font-size: 12px;
-  -webkit-text-stroke: 1px black;
-}
-.input-container{
-  display: block;
-  margin-top: 20px;
-  width: 100%;
-  border:none;
-  border-bottom: 2px solid black;
-  padding: 5px;
-}
-.Para{
-  margin-bottom: 20px;
-  /* margin-left: 29px; */
-}
-a.Pa{
-  font-size: 11px;
-  color: black;
-  text-decoration: none;
-}
-a.Pa:hover{
-  color:grey;
-}
-.check{
-  width: 100%;
-  display: flex;
-}
-.check .box{
-  margin-top: 20px;
-}
-
-.box input{
-  width: 18px;  
-  height: 17px;
-}
-.box label{
-  font-size: 13.5px;
-}
-.accInfo{
-  color: grey;
-  font-size: 10.5px;
-  line-height: 20px;
-}
-.but{
-  width:100%;
-  border: 2px solid black;
-  border: none;
-  font-size: 11px;
-  background-color: black;
-  color: white;
-  padding: 11px;
-  text-transform: uppercase;
-  transition: 0.3s;
-  position: relative;
-  z-index: 1;
- text-transform: uppercase;
- cursor: pointer;
-}
-.but:hover{
-  color: black;
-  cursor: pointer;
-}
-.but::before{
-  border: 2px solid black;
-  transition: 0.3s all ease;
-  position: absolute;
-  top:0;
-  left: 10%;
-  right: 10%;
-  bottom: 0;
-  opacity: 0;
-  content: "";
-  color: black;
-  background: white;
-  z-index: 1;
- 
-}
-.but:hover::before{
-  transition: 0.3s all ease;
-  left: 0;
-  right: 0;
-  opacity: 1;
-  z-index: -1;
-}
-.button2{
-  width: 100%;
-  margin-top: 10px;
-}
-.but2{
-  width:100%;
-  border: 2px solid black;
-  border: none;
-  font-size: 11px;
-  background-color: black;
-  color: white;
-  padding: 11px;
-  text-transform: uppercase;
-  transition: 0.3s;
-  position: relative;
-  z-index: 1;
- text-transform: uppercase;
- cursor: pointer;
-}
-.but2:hover{
-  color: black;
-  cursor: pointer;
-}
-.but2::before{
-  border: 2px solid black;
-  transition: 0.3s all ease;
-  position: absolute;
-  top:0;
-  left: 10%;
-  right: 10%;
-  bottom: 0;
-  opacity: 0;
-  content: "";
-  color: black;
-  background: white;
-  z-index: 1;
- 
-}
-.but2:hover::before{
-  transition: 0.3s all ease;
-  left: 0;
-  right: 0;
-  opacity: 1;
-  z-index: -1;
-}
-/* Registration sections Ends*/
-
-
-
-
 
 /* Media Query */
 @media (min-width: 1024px) {
@@ -720,7 +730,7 @@ a.Pa:hover{
     height: 450px;
     margin-top: 30px;
   }
-  .store-info  h2{
+  .store-info h2 {
     font-weight: 700;
     font-size: 22px;
   }
@@ -733,87 +743,85 @@ a.Pa:hover{
     line-height: 25px;
     color: grey;
   }
-  .btn2{
-     width: 25%;
+  .btn2 {
+    width: 25%;
   }
-  .btn3{
-      width: 19%;
+  .btn3 {
+    width: 19%;
   }
-  .about-sassi{
+  .about-sassi {
     font-size: 70px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
     font-weight: 700;
   }
-  .about-sassi .span-b{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  .about-sassi .span-b {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
     color: #fff;
     opacity: 1;
-    -webkit-text-stroke:1px black;
+    -webkit-text-stroke: 1px black;
   }
-  .loveP1{
-    height:200px ;
-    background-image: url('./Pics/img52.jpg');
+  .loveP1 {
+    height: 200px;
+    background-image: url("./Pics/img52.jpg");
     background-repeat: no-repeat;
     background-position: center;
-   background-size: 100%;
+    background-size: 100%;
   }
-  .loveP2{
-    height:200px ;
-    background-image: url('./Pics/img10.jpg');
-    background-repeat: no-repeat;
-    background-position: center; 
-    background-size: 100%;
-  } 
-  .loveP3{
-    height:200px ;
-    background-image: url('./Pics/1mg11.jpg');
+  .loveP2 {
+    height: 200px;
+    background-image: url("./Pics/img10.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-   
-  } 
-  .loveP4{
-    height:200px ;
-   background-image: url('./Pics/img9.jpg');
-   background-repeat: no-repeat;
-   background-position:center;
-   background-size: 100%;
-  } 
-  .loveP5{
-    height:200px ;
-    background-image: url('./Pics/img8.jpg');
+  }
+  .loveP3 {
+    height: 200px;
+    background-image: url("./Pics/1mg11.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-   
-  } 
-  .loveP6{
-    height:200px ;
-    background-image: url('./Pics/img6.jpg');
+  }
+  .loveP4 {
+    height: 200px;
+    background-image: url("./Pics/img9.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-    
-  } 
-  .check{
+  }
+  .loveP5 {
+    height: 200px;
+    background-image: url("./Pics/img8.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+  }
+  .loveP6 {
+    height: 200px;
+    background-image: url("./Pics/img6.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+  }
+  .check {
     width: 80%;
     display: flex;
     margin-left: 50px;
   }
   .but {
-    width:130%;
+    width: 130%;
     padding: 19px;
   }
-  .but2{
-    width:25%;
+  .but2 {
+    width: 25%;
     padding: 19px;
   }
-  .input-container{
-      padding: 10px;
+  .input-container {
+    padding: 10px;
   }
   ul li:hover .submenu-list {
     height: 250px;
-   
   }
   ul.submenu-list .sub-list {
     background-color: #fff;
