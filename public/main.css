@@ -416,7 +416,7 @@
   
   .about-sassi-b p,
   .about-sassi-c p {
-    /* margin-top: 10px; */
+   /* margin-top: 10px; */
     /* margin-left: 10px; */
     font-size: 12px;
     line-height: 25px;
@@ -620,6 +620,14 @@
     right: 0;
     opacity: 1;
     z-index: -1;
+  }
+
+  a.product-items-link-grey-color{
+    font-size: 21px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: grey;
+    text-decoration: none;
+    text-transform: uppercase;
   }
   /* Registration sections Ends*/
   /* 
