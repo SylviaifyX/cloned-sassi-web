@@ -1,6 +1,8 @@
 const dropMenu = document.querySelector("#drop-down-menu")
 const openNav = document.querySelector("#open-menu-bar")
 const closeMenu = document.querySelector("#close-menu-bar")
+
+
 //handling the Nav-bar-section//
 openNav.addEventListener("click", () =>{
     openNav.style.display ="none";
@@ -31,4 +33,20 @@ cardImage.addEventListener('mouseenter', () =>{
 cardImage.addEventListener("mouseleave", () =>{
     overlay.style.display ="none";
     cardImage.style.display ="block";
+})
+
+
+
+//handling cart container//
+let cartIcon = document.getElementById("cartbtn")
+let body = document.querySelector("body")
+// let addCartCon = document.getElementById("addCart-con")
+
+cartIcon.addEventListener("click", (e) =>{
+    e.preventDefault();
+    alert("hello")
+    body.classList.toggle("showCart")
+
+    
+
 })

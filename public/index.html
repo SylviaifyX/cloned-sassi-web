@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sassihold-fold project</title>  
+    <title>Sassihold-fold project</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -11,11 +11,11 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="main.css" />
   </head>
-  <body>
+  <body class="">
     <!----------------------------- Navbar section starts here --------------------->
     <nav class="nav-bar w-full bg-white fixed z-[9999] p-2">
       <wrapper
-        class="flex items-center justify-between lg:max-w-[1200px] w-full lg:mx-auto p-1 md:p-3"
+        class="flex items-center justify-between lg:max-w-[1200px] w-full lg:mx-auto p-1 md:p-3 container"
       >
         <section class="logo w-[28%] md:w-[14%] lg:w-[15%]">
           <a href="index.html"
@@ -25,13 +25,16 @@
               class="w-full object-cover h-full"
           /></a>
         </section>
-        <ul class="nav-list flex flex-col bg-white hidden md:flex md:flex-row  fixed md:static md:items-center left-0 right-0 p-2 lg:p-0  lg:top-0 lg:z-0 text-center text-[13px]" id="drop-down-menu">
+        <ul
+          class="nav-list flex flex-col bg-white hidden md:flex md:flex-row fixed md:static md:items-center left-0 right-0 p-2 lg:p-0 lg:top-0 lg:z-0 text-center text-[13px]"
+          id="drop-down-menu"
+        >
           <li><a class="" href="#">About</a></li>
           <li>
             <a class="" href="#">Bridal</a>
             <ul class="submenu-list">
               <div class="sub-list">
-                <img id="navPic" src="../Pics/navpic1.png" alt="" />
+                <img id="navPic" src="./Pics/navpic1.png" alt="" />
                 <strong
                   ><a id="collect" class="nav-pic1" href=""
                     >COLLECTIONS</a
@@ -39,17 +42,17 @@
                 >
               </div>
               <div class="sub-list">
-                <img id="navPic1" src="../Pics/navpic2.jpg" alt="" />
+                <img id="navPic1" src="./Pics/navpic2.jpg" alt="" />
                 <strong
                   ><a href="" id="consult">VRITUAL<br />CONSULATION</a></strong
                 >
               </div>
               <div class="sub-list">
-                <img id="navPictuer" src="../Pics/navpic3.png" alt="" />
+                <img id="navPictuer" src="./Pics/navpic3.png" alt="" />
                 <strong><a href="" id="access">ACCESSORIES</a></strong>
               </div>
               <div class="sub-list">
-                <img id="navPictuer1" src="../Pics/navpic4.jpg" alt="" />
+                <img id="navPictuer1" src="./Pics/navpic4.jpg" alt="" />
                 <strong><a href="" id="bok">LOOKBOOK</a></strong>
               </div>
             </ul>
@@ -59,7 +62,9 @@
           <li><a class="ab" href="#">Blog</a></li>
           <li><a class="ab" href="#">Our Store</a></li>
           <li><a class="ab" href="#">Stock List</a></li>
-          <li class ="block md:block lg:hidden"><a class="" href="register.html">My Account</a></li>
+          <li class="block md:block lg:hidden">
+            <a class="" href="register.html">My Account</a>
+          </li>
         </ul>
         <section
           class="details-container hidden items-center space-x-2 md:hidden lg:flex"
@@ -83,13 +88,60 @@
         <div class="open-menu cursor-pointer md:hidden" id="open-menu-bar">
           <i class="fa fa-bars" aria-hidden="true"></i>
         </div>
-        <div class="open-menu cursor-pointer hidden md:hidden" id="close-menu-bar">
+        <div
+          class="open-menu cursor-pointer hidden md:hidden"
+          id="close-menu-bar"
+        >
           <i class="fa fa-times" aria-hidden="true"></i>
         </div>
       </wrapper>
     </nav>
     <!----------------------------- Navbar section Ends here --------------------->
-    
+    <!----------------------------- Add to Cart section Starts here --------------------->
+    <section
+      class="add-to-cart-container border bg-white border-[#d1cbcb] w-[480px] h-[260px] fixed mt-40 right-0 z-[9999]"
+      id="addCart-con"
+    >
+      <div
+        class="add-to-cart-container-items flex items-center md:gap-20 w-full fixed  bg-white p-2 "
+      >
+        <div class="bigItem">
+          <h3 class="font-bold text-[20px]">BAG ITEMS (0)</h3>
+        </div>
+
+        <button class="buton cursor-pointer p-2" id="del">
+          <i class="fa fa-times text-[28px]" aria-hidden="true"></i>
+        </button>
+      </div>
+      <section class="cart-list-con mt-16">
+        <div class="add-to-cart-list flex items-center justify-between p-2">
+          <div class="w-[20%]">
+            <img
+              src="./Pics/1mg11.jpg"
+              class="w-full object-cover block"
+              alt=""
+            />
+          </div>
+          <div class="add-to-cart-info w-[80%] flex flex-col gap-3">
+            <h2 class="ml-[50px] text-[18px] font-bold">Silk Christon Dress</h2>
+            <p class="ml-[50px] text-[14px] text-slate-400 font-bold">
+              Beautiful Silk Dress
+            </p>
+            <h3 class="ml-[50px] text-[14px] text-slate-400 font-bold">
+              £1,895.00
+            </h3>
+          </div>
+        </div>
+      </section>
+      <div class="add-cart-btn bg-[#e5e5f5] p-3">
+        <div class="md:flex md:items-center w-full">
+          <button class="btn2">Close</button>
+          <button class="btn3">CheckOut</button>
+        </div>
+      </div>
+    </section>
+    <!----------------------------- Add to Cart section Ends here --------------------->
+
     <!----------------------------- Hero section starts here --------------------->
     <div class="Hero-banner-container w-full h-[550px] md:h-[680px]">
       <section class="hero-sub-wrapperA md:h-[680px] relative p-2">
@@ -147,9 +199,11 @@
     </section>
     <!----------------------------- first Grid Card section Ends here --------------------->
     <!-----------------------------  Description section starts here --------------------->
-    <section class="description-container w-full lg:h-[300px] lg:mt-[30px] p-4  md:p-0 ">
+    <section
+      class="description-container w-full lg:h-[300px] lg:mt-[30px] p-4 md:p-0"
+    >
       <div class="sasi-icon relative">
-        <div class="description-text text-center absolute top-20 w-full   md:p-0">
+        <div class="description-text text-center absolute top-20 w-full md:p-0">
           <h2
             class="font-bold leading-7 text-[12px] sm:text-[12px] md:text-[15px] lg:text-[16.9px]"
           >
@@ -168,7 +222,7 @@
     <!----------------------------- Description section Ends here --------------------->
     <!----------------------------- New arrival section starts here --------------------->
     <section
-      class="w-full md:max-w-[1300px] md:mx-auto md:mt-20 lg:h-[420px] p-4 md:p-3  mt-16 "
+      class="w-full md:max-w-[1300px] md:mx-auto md:mt-20 lg:h-[420px] p-4 md:p-3 mt-16"
     >
       <h2 class="font-bold uppercase">New Arrivals</h2>
       <div
