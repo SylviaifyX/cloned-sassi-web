@@ -58,25 +58,14 @@
   ul.submenu-list .sub-list img:hover {
     transform: scale(1.1);
   }
-  .nav-bar{
+  /* .nav-bar{
     transition: transform .5s;
-  }
+  } */
   /* cart section start */
+ 
   .add-to-cart-container{
     inset: 0 -500px 0 auto;
-    overflow: auto;
-    transition: all .9s ease-in;
-
   }
-  body .showCart .add-to-cart-container{
-    inset: 0 0 0 auto;
-    transform: translateX(-250px);
-
-  }
-  /* body .showCart .add-to-cart-container{
-    transform: translateX(-500px);
-
-  } */
    /* cart section end */
   
   .footer-wrapper {

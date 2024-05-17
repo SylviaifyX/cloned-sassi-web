@@ -37,16 +37,19 @@ cardImage.addEventListener("mouseleave", () =>{
 
 
 
-//handling cart container//
+// handling cart container//
 let cartIcon = document.getElementById("cartbtn")
-let body = document.querySelector("body")
-// let addCartCon = document.getElementById("addCart-con")
+let addCartCon = document.getElementById("addCart-con")
+let closeCart = document.getElementById("del")
 
 cartIcon.addEventListener("click", (e) =>{
     e.preventDefault();
-    alert("hello")
-    body.classList.toggle("showCart")
-
-    
-
+    addCartCon.style.opacity ="1"
+    addCartCon.style.transition = '.9s ease-out'
+    addCartCon.style.inset = '0 0 0 auto'
+})
+closeCart.addEventListener("click", () =>{
+    addCartCon.style.opacity ="1"
+    addCartCon.style.transition = '.9s ease-out'
+    addCartCon.style.inset = '0 -500px 0 auto'
 })
