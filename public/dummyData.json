@@ -21,7 +21,7 @@
     },
     {
         "id":4,
-        "image": "../Pics/img19.png",
+        "image": "./Pics/img19.png",
         "tittle":"ashington dress",
         "price":"£1450"
 
@@ -35,7 +35,7 @@
     },
     {
         "id":6,
-        "image": "../Pics/img51.png",
+        "image": "./Pics/img51.png",
         "tittle":"sttawley skir",
         "price":"£650"
 
