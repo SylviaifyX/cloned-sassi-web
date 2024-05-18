@@ -24,16 +24,16 @@ function close(){
 }
 
 //first grid-card-section//
-let cardImage = document.querySelector(".cardA-img");
-let overlay = document.querySelector(".top")
-cardImage.addEventListener('mouseenter', () =>{
-    overlay.style.display ="block";
-    cardImage.style.display ="none"
-})
-cardImage.addEventListener("mouseleave", () =>{
-    overlay.style.display ="none";
-    cardImage.style.display ="block";
-})
+// let cardImage = document.querySelector(".cardA-img");
+// let overlay = document.querySelector(".top")
+// cardImage.addEventListener('mouseenter', () =>{
+//     overlay.style.display ="block";
+//     cardImage.style.display ="none"
+// })
+// cardImage.addEventListener("mouseleave", () =>{
+//     overlay.style.display ="none";
+//     cardImage.style.display ="block";
+// })
 
 
 

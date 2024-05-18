@@ -1,0 +1,46 @@
+  [
+    {
+        "id":1,
+        "image": "./Pics/img43.png",
+        "tittle": "chedzoy dress",
+        "price": "E1569"
+    },
+    {
+        "id":2,
+        "image": "./Pics/img17.jpg",
+        "tittle":"boston blazer",
+        "price":"£1250"
+
+    },
+    {
+        "id":3,
+        "image": "./Pics/img41.png",
+        "tittle":"silk christon dress",
+        "price":"£1895"
+
+    },
+    {
+        "id":4,
+        "image": "../Pics/img19.png",
+        "tittle":"ashington dress",
+        "price":"£1450"
+
+    },
+     {
+        "id":5,
+        "image": "../Pics/img18.png",
+        "tittle":"chirswick dress",
+        "price":"£1595"
+
+    },
+    {
+        "id":6,
+        "image": "../Pics/img51.png",
+        "tittle":"sttawley skir",
+        "price":"£650"
+
+    }
+    
+ ] 
+
+

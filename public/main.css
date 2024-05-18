@@ -646,7 +646,29 @@
     background-position: top;
     background-size: cover;
   }
-  
+  .image{
+    width: 90%;
+    margin: 10px auto;
+    filter: drop-shadow(0 10px 10px rgba(146, 145, 145, 0.6));
+  }
+  .fashion-item{
+    background-color: #f8f8e2;
+    border: 10px;
+  }
+  .addcart-button{
+    width: 50%;
+    background-color: black;
+    color: white;
+    margin: auto;
+    padding: 10px;
+  }
+  /* product page css starts here */ 
+
+
+
+
+
+  /*media Query*/
   @media (min-width: 640px) {
     .sasi-icon {
       height: 300px;

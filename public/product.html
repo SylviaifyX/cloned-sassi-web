@@ -12,11 +12,12 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="main.css" />
   </head>
+
   <body>
     <!----------------------------- Navbar section starts here --------------------->
     <nav class="nav-bar w-full bg-white fixed top-0 left-0 z-[1000] p-2">
       <wrapper
-        class="flex items-center justify-between lg:max-w-[1200px] w-full lg:mx-auto p-1 md:p-3"
+        class="flex items-center justify-between lg:max-w-[1200px] w-full lg:mx-auto p-1 md:p-3 container"
       >
         <section class="logo w-[28%] md:w-[14%] lg:w-[15%]">
           <a href="index.html"
@@ -98,6 +99,50 @@
       </wrapper>
     </nav>
     <!----------------------------- Navbar section Ends here --------------------->
+    <!----------------------------- Add to Cart section Starts here --------------------->
+    <section
+      class="add-to-cart-container border bg-white border-[#d1cbcb] w-[480px] h-[330px] fixed mt-40 right-0 z-[9999]"
+      id="addCart-con"
+    >
+      <div
+        class="add-to-cart-container-items flex items-center md:gap-20 w-full p-1"
+      >
+        <div class="bigItem">
+          <h3 class="font-bold text-[20px]">BAG ITEMS (0)</h3>
+        </div>
+
+        <button class="buton cursor-pointer p-2" id="del">
+          <i class="fa fa-times text-[28px]" aria-hidden="true"></i>
+        </button>
+      </div>
+      <section class="cart-list-con mt-16">
+        <div class="add-to-cart-list flex items-center justify-between p-2">
+          <div class="w-[20%]">
+            <img
+              src="./Pics/1mg11.jpg"
+              class="w-full object-cover block"
+              alt=""
+            />
+          </div>
+          <div class="add-to-cart-info w-[80%] flex flex-col gap-3">
+            <h2 class="ml-[50px] text-[18px] font-bold">Silk Christon Dress</h2>
+            <p class="ml-[50px] text-[14px] text-slate-400 font-bold">
+              Beautiful Silk Dress
+            </p>
+            <h3 class="ml-[50px] text-[14px] text-slate-400 font-bold">
+              £1,895.00
+            </h3>
+          </div>
+        </div>
+      </section>
+      <div class="add-cart-btn p-3">
+        <div class="md:flex md:items-center w-full">
+          <button class="btn2">Close</button>
+          <button class="btn3">CheckOut</button>
+        </div>
+      </div>
+    </section>
+    <!----------------------------- Add to Cart section Ends here --------------------->
     <!----------------------------- Hero banner section Starts here --------------------->
     <section class="h-[400px] w-full mt-[20px]">
       <div class="product-backgraound-image relative">
@@ -130,7 +175,7 @@
       </div>
     </section>
     <!----------------------------- Hero banner section Ends here --------------------->
-    <!----------------------------- Fashion page describtion  section Starts here --------------------->
+    <!----------------------------- Fashion page description  section Starts here --------------------->
     <section
       class="description-container w-full lg:h-[300px] lg:mt-[30px] p-4 md:p-0"
     >
@@ -153,7 +198,22 @@
         </div>
       </div>
     </section>
-    <!----------------------------- Fashion page describtion  section Ends here --------------------->
+    <!----------------------------- Fashion page description  section Ends here --------------------->
+    <!----------------------------- Fashion page product  section starts here --------------------->
+      <section class="fashion-product-con  md:mt-7 md:mb-8">
+        <div class="w-full md:max-w-[1200px] md:mx-auto grid grid-cols-3  gap-4  text-center p-3 fashion-item-container">
+          <div class="fashion-item bg-yellow-500 p-4 flex flex-col gap-2">
+            <img src="./Pics/img41.png" class="image" alt=""></img>
+            <h2 class="font-bold">Silk Christon Dress</h2>
+            <div class="price text-[18px] text-slate-300 font-bold">£1,895.00</div>
+            <button class="addcart-button">Add To Cart</button>
+          </div>
+          
+          
+        </div>
+
+      </section>
+    <!----------------------------- Fashion page product  section ends here --------------------->
 
     <!----------------------------- footer section starts here --------------------->
     <footer
@@ -250,5 +310,7 @@
       </section>
     </footer>
     <!----------------------------- footer section Ends here --------------------->
+
+    <script src="main.js"></script>
   </body>
 </html>
