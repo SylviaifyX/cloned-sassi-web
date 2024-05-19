@@ -50,8 +50,6 @@ closeBtn.addEventListener("click", () =>{
 //handling the product page to be able to add to cart//
 let productList = document.querySelector(".fashion-item-container")
 let listProduct = []
-
-
 const showData = () =>{
     productList.innerHTML = "";
 
