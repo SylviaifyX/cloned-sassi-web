@@ -28,7 +28,7 @@
     },
      {
         "id":5,
-        "image": "../Pics/img18.png",
+        "image": "./Pics/img18.png",
         "tittle":"chirswick dress",
         "price":"£1595"
 
