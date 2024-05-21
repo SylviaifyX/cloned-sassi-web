@@ -905,10 +905,6 @@ video {
   width: 28%;
 }
 
-.w-\[40\%\] {
-  width: 40%;
-}
-
 .w-\[480px\] {
   width: 480px;
 }
@@ -1367,6 +1363,10 @@ video {
     margin-bottom: 7rem;
   }
 
+  .md\:ml-12 {
+    margin-left: 3rem;
+  }
+
   .md\:ml-4 {
     margin-left: 1rem;
   }
@@ -1445,6 +1445,10 @@ video {
 
   .md\:w-\[35\%\] {
     width: 35%;
+  }
+
+  .md\:w-\[40\%\] {
+    width: 40%;
   }
 
   .md\:w-\[70\%\] {
