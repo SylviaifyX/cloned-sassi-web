@@ -142,10 +142,6 @@ const addCartToHtml = () => {
   }
 };
 
-// console.log(addingCartButton)
 
-//  for(let i = 0; i <addingCartButton.length; i++){
-//    let buttons = addingCartButton[i]
-//    console.log(buttons)
 
-//  }
+
