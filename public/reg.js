@@ -1,5 +1,4 @@
 //Email Registration Process//
-
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.1/firebase-app.js";
 
