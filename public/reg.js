@@ -1,17 +1,12 @@
 //Email Registration Process//
-// Import the functions you need from the SDKs you need
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.1/firebase-app.js";
-
 import {
     getAuth,
     createUserWithEmailAndPassword,
     signInWithEmailAndPassword,
   } from "https://www.gstatic.com/firebasejs/10.12.1/firebase-auth.js";
   
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
 
-// Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: "AIzaSyARmm2k_n20QaYw2RrL--lRQ9BVhU_AtyE",
   authDomain: "registration-a.firebaseapp.com",
@@ -27,7 +22,8 @@ const auth = getAuth(app);
 
 //getting inputs//
 const RegistrationButton = document.getElementById("reg-submit");
-RegistrationButton.addEventListener("click", (e) => {
+
+RegistrationButton.addEventListener('click', (e) => {
   e.preventDefault();
   const email = document.getElementById("email").value;
   const password = document.getElementById("pass").value;
@@ -36,7 +32,6 @@ RegistrationButton.addEventListener("click", (e) => {
       // Signed up
       const user = userCredential.user;
         alert("Account created......")
-        // window.location.href="product.html"
       // ...
     })
     .catch((error) => {

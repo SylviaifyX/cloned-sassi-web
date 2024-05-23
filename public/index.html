@@ -26,7 +26,7 @@
           /></a>
         </section>
         <ul
-          class="nav-list flex flex-col bg-white hidden md:flex md:flex-row fixed md:static md:items-center left-0 right-0 p-2 lg:p-0 lg:top-0 lg:z-0 text-center text-[13px]"
+          class="nav-list flex flex-col bg-white hidden md:flex md:flex-row fixed md:static md:items-center left-0 right-0 p-2 lg:p-0 lg:top-0 lg:z-0 text-center text-[12px]"
           id="drop-down-menu"
         >
           <li><a class="" href="#">About</a></li>
@@ -62,17 +62,17 @@
           <li><a class="ab" href="#">Blog</a></li>
           <li><a class="ab" href="#">Our Store</a></li>
           <li><a class="ab" href="#">Stock List</a></li>
-          <li class="block md:block lg:hidden">
+          <li class="block md:block">
             <a class="" href="register.html">My Account</a>
           </li>
         </ul>
         <section
-          class="details-container hidden items-center space-x-2 md:hidden lg:flex"
+          class="details-container  md:items-center md:space-x-2 lg:flex"
         >
-          <div class="account-container text-[13px]">
+          <div class="account-container text-[13px] hidden md:hidden lg:block">
             <a class="" href="register.html">My Account</a>
           </div>
-          <div class="cart-icon">
+          <div class="cart-icon hidden md:hidden lg:block">
             <i class="fa fa-search" aria-hidden="true"></i>
           </div>
           <div class="cart-container relative">
@@ -99,7 +99,7 @@
     <!----------------------------- Navbar section Ends here --------------------->
     <!----------------------------- Add to Cart section Starts here --------------------->
     <section
-      class="add-to-cart-container border bg-white border-[#d1cbcb] w-[480px] h-[330px] fixed mt-40 right-0 z-[9999]"
+      class="add-to-cart-container border bg-white border-[#d1cbcb] w-full h-full lg:w-[480px] lg:h-[330px] fixed top-0 lg:mt-40 right-0 z-[9999]"
       id="addCart-con"
     >
       <div
@@ -173,7 +173,7 @@
     <!----------------------------- Hero section Ends here --------------------->
     <!----------------------------- first Grid Card section starts here --------------------->
     <section
-      class="first-grid-container mt-40 md:mt-20 w-full md:max-w-[1300px] space-y-5 lg:space-y-0 sm:space-y-0 sm:gap-3 md:mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 p-4 md:p-2 md:gap-3 lg:p-0"
+      class="first-grid-container mt-40 md:mt-20 w-full md:max-w-[1300px] space-y-5 lg:space-y-0 sm:space-y-0 sm:gap-3 md:mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 p-6 md:p-2 md:gap-3"
     >
       <div class="card">
         <div class="cardA-img"></div>
@@ -222,7 +222,7 @@
     <!----------------------------- Description section Ends here --------------------->
     <!----------------------------- New arrival section starts here --------------------->
     <section
-      class="w-full md:max-w-[1300px] md:mx-auto md:mt-20 lg:h-[420px] p-4 md:p-3 mt-16"
+      class="w-full md:max-w-[1300px] md:mx-auto md:mt-20 lg:h-[420px] p-6 md:p-3 mt-16"
     >
       <h2 class="font-bold uppercase">New Arrivals</h2>
       <div
@@ -343,8 +343,8 @@
     <section
       class="about-sassi w-full lg:h-[100px] mt-8 lg:mt-0 md:max-w-[1300px] md:mx-auto"
     >
-      <div class="w-full p-2 md:p-0 flex-wrap">
-        <span class="span-a md:ml-[30px] lg:ml-[50px]">WHO IS</span>
+      <div class="w-full p-2 md:p-0 flex items-center] gap-3">
+        <span class="span-a md:ml-[30px] lg:ml-[40px]">WHO IS</span>
         <span class="span-b">SASSI HOLDFORD</span>
       </div>
     </section>
@@ -383,7 +383,7 @@
           </p>
         </div>
       </div>
-      <div class="lg:w-1/2 lg:h-[248px]">
+      <div class="lg:w-1/2">
         <div class="about-sassi-b">
           <p>
             some of <a class="brid" href="">Holly Willoughby’s</a> most
